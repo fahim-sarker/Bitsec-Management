@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# User Management Dashboard Application
 
-## Getting Started
+A responsive Dashboard Application built with Next.js (App Router) + TypeScript, fetching data from JSONPlaceholder API.  
+The app includes User List, Search, Pagination, User Details Page, and GSAP animations for a smooth user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo
+[View Live Project](https://your-vercel-deployed-link.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- User List Page
+  - Displays all users fetched from JSONPlaceholder API.
+  - Includes search functionality (filter by name or email).
+  - Pagination with limited users per page.
+  - Row click interactions.
 
-## Learn More
+- User Details Page
+  - Opens on clicking a user’s row/name.
+  - Displays detailed user information (name, email, phone, company, address, website).
+  - Easy navigation back to the user list.
 
-To learn more about Next.js, take a look at the following resources:
+- Responsive Design
+  - Works well on desktop, tablet, and mobile.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Animations
+  - Integrated GSAP for smooth animations.
+  - Creative transitions and entry effects for list items.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- ShadCN/UI
+- GSAP (animations)
+- JSONPlaceholder API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository  
+   git clone https://github.com/fahim-sarker/Bitsec-Management
+   cd my-app
+   npm install
+   npm install
+
+   
+## ScreenShort
+![Desktop Screenshot](./ScreenShort/image.png)
